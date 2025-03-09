@@ -3,4 +3,5 @@
 This is an add for the alacapay banking app 
 👉 You can find it in the other repository! Go ahead and explore. Any contributions are welcome! 🚀🔥
 
-Alcapay Banking App Repo Link: 
+Alcapay Banking App Repo Link: https://github.com/Iyawn1210/Alcapay_Banking_App
+
