@@ -1,0 +1,106 @@
+.about-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  z-index: 6;
+  display: flex;
+  flex-direction: row;
+}
+.fade-in-overlap {
+  box-shadow: 0px 0px 100px 150px black;
+  transition: all 0.2s;
+}
+
+/* Left Section */
+.left-section {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  box-shadow: inset 30px 30px 100px 150px black;
+  overflow-y: hidden;
+}
+.left-section-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.layout-left-section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 7;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5),
+    black,
+    black
+  );
+}
+.blur {
+  backdrop-filter: blur(10px);
+}
+/* Right Section */
+.right-section {
+  flex: 1;
+  background-color: black;
+}
+.text-box {
+  width: 90%;
+  height: 90%;
+  background-color: #11111100;
+  margin: 50px auto;
+
+  display: flex;
+  flex-direction: column;
+}
+.text-box-top {
+  height: 1.5rem;
+  width: 100%;
+  background-color: rgba(245, 222, 179, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.text-box-top h1 {
+  margin: 0;
+  border: 2px solid white;
+  font-size: 30px;
+  width: 3rem;
+  height: 0.8rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.text-box-top h1:hover {
+  color: yellow;
+  border: 2px solid yellow;
+}
+.content-box {
+  flex: 1;
+  background-color: rgba(50, 50, 50, 0);
+  font-family: roboto !important;
+  overflow: hidden;
+}
+.text-box-bot {
+  position: absolute;
+  height: 10rem;
+  opacity: 0;
+  transition: opacity 0.4s;
+  overflow-y: hidden;
+}
+
+.text-box-bot p,
+.text-box-bot p mark {
+  font-size: 20px;
+  font-size: 100;
+}
+
+.text-bot-opacity {
+  opacity: 1;
+}

@@ -1,0 +1,147 @@
+.home-page {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+#background-video {
+  position: absolute;
+  object-fit: cover;
+  min-width: 100%;
+  max-height: 100%;
+}
+/* Top Bar */
+.top-bar {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  height: 100px;
+  width: 100vw;
+}
+.top-bar img {
+  height: 100px;
+  width: 100px;
+  margin-left: 1%;
+}
+
+/* Layout */
+.intro-lay-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.442);
+  backdrop-filter: blur(4px);
+}
+.intro-lay-out h1,
+.intro-lay-out h1 span {
+  font-size: 3rem;
+  font-family: var(--title-font);
+  margin-bottom: 1%;
+}
+.intro-lay-out h1 span {
+  color: yellow;
+}
+.intro-lay-out h3 {
+  position: relative;
+  width: 50vw;
+  text-align: center;
+  margin-top: 1%;
+  font-family: var(--title-font);
+  font-weight: 500px;
+}
+.intro-lay-out span {
+  font-size: 1rem;
+}
+.intro-lay-out span:nth-child(1) {
+  margin-right: 7%;
+}
+.bar-between {
+  position: absolute;
+  left: 50%;
+  top: -40%;
+  bottom: -40%;
+  width: 10px;
+  background-color: white;
+}
+/* .intro-lay-out{
+    background-color: white;
+} */
+
+/* Navigation display */
+
+.navigation {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0);
+  height: 300px;
+  width: 150px;
+  bottom: 2%;
+  right: 3%;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: roboto;
+  z-index: 10;
+}
+.nav-list li {
+  list-style-type: none;
+}
+.nav-list {
+  margin-top: 0;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.nav-list li a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20%;
+  flex: 1;
+  width: 100%;
+  padding: 0;
+}
+.nav-list a {
+  font-size: 30px;
+  list-style-type: none;
+  text-align: center;
+  border: 2px solid white;
+  text-transform: none;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.7s;
+  cursor: pointer;
+}
+
+.nav-button {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  font-size: 35px;
+  word-spacing: 10px;
+  text-transform: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* button effects */
+.button-opacity {
+  opacity: 0.1;
+}
+.nav-button:hover {
+  opacity: 100;
+}
+.nav-list a:hover {
+  background-color: white;
+  color: black;
+}
+
+.hide {
+  display: none;
+}

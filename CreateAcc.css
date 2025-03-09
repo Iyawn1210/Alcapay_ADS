@@ -1,0 +1,228 @@
+.create-acc-page {
+  height: 300vh;
+  width: 100vw;
+  background: radial-gradient(
+    circle,
+    rgb(36, 36, 36),
+    rgb(31, 31, 31),
+    black,
+    black
+  );
+  display: flex;
+  flex-direction: column;
+  z-index: 8;
+}
+.offer-title,
+.offer-title span {
+  font-size: 60px;
+  margin-top: 10%;
+}
+.offer-title span {
+  color: yellow;
+}
+.create-acc-page h1 {
+  margin: 0;
+  margin-bottom: 2%;
+  text-align: center;
+  word-spacing: 100%;
+}
+/* Tour content part */
+.tour-content1,
+.tour-content2 {
+  height: 6rem;
+  width: 80%;
+  background-color: rgba(38, 38, 38, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2% auto;
+}
+.tour-content1 img,
+.tour-content2 img {
+  width: 30%;
+  border: 2px solid white;
+}
+.tour-content1 div,
+.tour-content2 div {
+  width: 10rem;
+}
+.tour-content1 div p,
+.tour-content2 div p,
+.tour-content1 div p mark,
+.tour-content2 div p mark {
+  font-size: 20px;
+}
+/* Comments sliding part */
+.receive-title,
+.receive-title span {
+  text-align: justify;
+}
+.receive-title span {
+  color: yellow;
+}
+.comments-sliding {
+  position: relative;
+  width: 60%;
+  margin: 2% auto;
+  height: 7rem;
+  overflow: hidden;
+}
+.comments-sliding button {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+.comments {
+  position: absolute;
+  height: 7rem;
+  width: 100%;
+  background-color: #111111;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: -10px 15px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 1s;
+}
+.comments img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.comments div,
+.comments img {
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.comments h1 {
+  font-size: 30px;
+  text-align: start;
+}
+.comments p {
+  font-size: 20px;
+  text-align: start;
+}
+
+.previous {
+  background-image: url(assets/previous.png);
+  background-size: cover;
+  left: 2%;
+  bottom: 40%;
+}
+.next {
+  background-image: url(assets/next.png);
+  background-size: cover;
+  right: 2%;
+  bottom: 40%;
+}
+
+/* Create account area */
+.create-acc-area {
+  flex: 1;
+  background-color: rgba(255, 255, 0, 0);
+}
+.create-acc-modal h1 {
+  margin-top: 2%;
+}
+.create-acc-modal h1 span {
+  color: yellow;
+}
+.create-acc-modal {
+  height: 12rem;
+  width: 9rem;
+  background-color: #111111;
+  margin: 7% auto;
+  color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+.create-acc-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 5%;
+
+  border-bottom: 2px solid white;
+}
+.create-acc-form input {
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+.full-name {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.full-name input {
+  width: 40%;
+}
+.create-acc-form textarea {
+  font-size: 25px;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0;
+}
+.checkbox-container label {
+  font-size: 20px;
+}
+.checkbox-container input {
+  margin: auto 0;
+  margin-right: 2%;
+  cursor: pointer;
+}
+.create-acc-form input[type="submit"] {
+  width: 50%;
+  margin: 0 auto;
+  padding: 8px 8px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 2px;
+  transition: background-color 0.2s;
+}
+.create-acc-form input[type="submit"]:hover {
+  background-color: yellow;
+}
+
+.media-options {
+  height: 17%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.media-options h2 {
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+}
+.medias img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+.hide-below {
+  opacity: 0;
+  transform: translateY(10rem);
+}

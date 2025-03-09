@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alcapay Afvertisement</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="AboutUs.css" />
+    <link rel="stylesheet" href="CreateAcc.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <script defer src="styles.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="home-page" id="home-page">
+      <div class="top-bar">
+        <img src="assets/AlcapayLogo.png" alt="alcapay logo" />
+      </div>
+      <!-- Video background -->
+      <video autoplay muted loop id="background-video">
+        <source src="assets/bgVideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <!--Layout intro title  -->
+      <section class="intro-lay-out">
+        <h1>ALCA<span>PAY</span></h1>
+        <h3>
+          <span>Your choice</span><span>Our Choice</span
+          ><span class="bar-between"></span>
+        </h3>
+      </section>
+    </section>
+    <!-- Navigation -->
+    <div class="navigation">
+      <ol class="nav-list hide">
+        <li><a class="nav-link" href="#about-page">About us</a></li>
+        <li><a class="nav-link" href="#create-acc-page">Create acc</a></li>
+        <li><a class="nav-link" href="#home-page">Home</a></li>
+      </ol>
+      <button class="nav-button">Navigate</button>
+    </div>
+
+    <!--  About Page-->
+    <section class="about-page" id="about-page">
+      <!-- Left  section of about page -->
+      <section class="left-section">
+        <img class="left-section-img" data-img="1" src="assets/easy.jpg" />
+        <img class="left-section-img" data-img="2" src="assets/trusted.jpg" />
+        <img class="left-section-img" data-img="3" src="assets/secured.jpg" />
+        <!-- <img data-aboutImg="2"  -->
+        <div class="layout-left-section"></div>
+      </section>
+      <!-- right  section of about page -->
+      <section class="right-section">
+        <div class="text-box">
+          <!-- Top of text box -->
+          <section class="text-box-top">
+            <h1 class="nav--tab" data-tab="1">Easy</h1>
+            <h1 class="nav--tab" data-tab="2">Trusted</h1>
+            <h1 class="nav--tab" data-tab="3">Secured</h1>
+          </section>
+          <!-- bottom of text box -->
+          <section class="content-box">
+            <!-- Contents -->
+            <section class="text-box-bot" data-content="1">
+              <h1>Easy</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed
+                nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
+                ipsum. Praesent mauris.<mark>
+                  Fusce nec tellus sed augue semper porta. Mauris massa.
+                  Vestibulum lacinia arcu eget nulla. </mark
+                >Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Curabitur sodales ligula in
+                libero. Sed dignissim lacinia nunc. Curabitur tortor.
+                Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.
+                Maecenas mattis. Sed convallis tristique sem. Proin ut ligula
+                vel nunc egestas porttitor. Morbi lectus risus, iaculis vel,
+                suscipit quis, luctus non, massa.
+              </p>
+            </section>
+            <section class="text-box-bot" data-content="2">
+              <h1>Trusted</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed
+                nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
+                ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+                Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent
+                taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.<mark
+                  >Curabitur sodales ligula in libero. </mark
+                >Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque
+                nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis.
+                Sed convallis tristique sem. Proin ut ligula vel nunc egestas
+                porttitor. Morbi lectus risus, iaculis vel, suscipit quis,
+                luctus non, massa.
+              </p>
+            </section>
+            <section class="text-box-bot" data-content="3">
+              <h1>Secured</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                nec odio.
+                <mark>Praesent libero. Sed cursus ante dapibus diam. </mark>Sed
+                nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
+                ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+                Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent
+                taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos. Curabitur sodales ligula in libero. Sed
+                dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh.
+                Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed
+                convallis tristique sem. Proin ut ligula vel nunc egestas
+                porttitor. Morbi lectus risus, iaculis vel, suscipit quis,
+                luctus non, massa.
+              </p>
+            </section>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <!-- Create account page -->
+    <section class="create-acc-page" id="create-acc-page">
+      <h1 class="offer-title">What We <span>offer</span></h1>
+      <section class="tour-content1">
+        <img src="assets/studentLoan.jpg" />
+        <div>
+          <h1>Student Loan</h1>
+          <p>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos.<mark>
+              Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+              Curabitur tortor. </mark
+            >Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.
+            Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel
+            nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit
+            quis, luctus non, massa.
+          </p>
+        </div>
+      </section>
+      <section class="tour-content2">
+        <div>
+          <h1>House Loan</h1>
+          <p>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Curabitur sodales ligula in libero. Sed
+            dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean
+            quam. In scelerisque sem at dolor. Maecenas mattis.<mark>
+              Sed convallis tristique sem.</mark
+            >
+            Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus,
+            iaculis vel, suscipit quis, luctus non, massa.
+          </p>
+        </div>
+        <img src="assets/houseLoan.jpg" />
+      </section>
+      <!-- Comments sliding part -->
+      <h1 class="receive-title">What We <span>receive</span></h1>
+      <section class="comments-sliding">
+        <div class="comments" data-comment="1">
+          <img src="assets/profile1.jpg" />
+          <div>
+            <h1>Kelly Bodsman</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+              massa. Vestibulum lacinia arcu eget nulla.
+            </p>
+          </div>
+        </div>
+        <div class="comments" data-comment="2">
+          <img src="assets/profile2.jpg" />
+          <div>
+            <h1>Sandy Reto</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+              massa. Vestibulum lacinia arcu eget nulla.
+            </p>
+          </div>
+        </div>
+        <div class="comments" data-comment="3">
+          <img src="assets/profile3.jpg" />
+          <div>
+            <h1>Siobhan Roy</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+              massa. Vestibulum lacinia arcu eget nulla.
+            </p>
+          </div>
+        </div>
+
+        <!-- Buttons (previous and next button) -->
+        <button class="previous"></button>
+        <button class="next"></button>
+      </section>
+      <section class="create-acc-area">
+        <div class="create-acc-modal">
+          <h1>Create <span>Account</span></h1>
+          <form class="create-acc-form">
+            <div class="full-name">
+              <input
+                type="text"
+                id="first-name"
+                placeholder="First name"
+                required
+              />
+              <input
+                type="text"
+                id="last-name"
+                placeholder="Last name"
+                required
+              />
+            </div>
+            <input type="email" id="email" placeholder="Email" required />
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <textarea
+              id="text-area"
+              placeholder="Reason for creating account"
+              cols="30"
+              rows="3"
+            ></textarea>
+            <div class="checkbox-container">
+              <input type="checkbox" id="agreed-terms" />
+              <label for="agreed-terms" id="checkbox-label"
+                >Agree to temrs and services</label
+              >
+            </div>
+            <input type="submit" />
+          </form>
+          <div class="media-options">
+            <h2>or use a social network</h2>
+            <div class="medias">
+              <img src="assets/media1.png" />
+              <img src="assets/media2.png" />
+              <img src="assets/media3.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer page -->
+    <section class="footer-page">
+      <div class="footer-left">
+        <img src="assets/AlcapayLogo.png" />
+        <h1>Alca<span>pay</span></h1>
+      </div>
+      <div class="footer-mid">
+        <h1>Company Alcapay</h1>
+        <h3>CEO: Noel Christian L. Soberano</h3>
+        <h3>CTO: Noel Christian L. Soberano</h3>
+        <h3>COO: Noel Christian L. Soberano</h3>
+      </div>
+      <div class="footer-right">
+        <h1>CONTACT US</h1>
+        <h3>Phone: 09672534800</h3>
+        <h3>Email: alcapay.website.com</h3>
+        <h3>Place: Bognuyan Gasan Marinduque</h3>
+      </div>
+    </section>
+    <!-- Layout -->
+    <div class="layout hide"></div>
+  </body>
+</html>
